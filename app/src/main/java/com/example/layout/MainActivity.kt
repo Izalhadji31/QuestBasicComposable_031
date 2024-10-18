@@ -59,7 +59,6 @@ fun BasicCompose(izal: Modifier = Modifier){
                 )
             )
         )
-
         Text(text = "ini halaman Login", fontSize = 22.sp, fontStyle = FontStyle.Italic,
             fontWeight = FontWeight.Bold, color = Color.Black)
         Image(painter = painterResource(id = R.drawable.logoumy),
@@ -67,6 +66,7 @@ fun BasicCompose(izal: Modifier = Modifier){
             modifier = izal.size(250.dp)
                 .padding(top = 10.dp)
         )
+        Text(text = "Nama", fontSize = 23.sp, fontWeight = FontWeight.Bold,)
     }
 }
 
