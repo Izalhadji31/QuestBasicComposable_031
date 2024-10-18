@@ -66,7 +66,14 @@ fun BasicCompose(izal: Modifier = Modifier){
             modifier = izal.size(250.dp)
                 .padding(top = 10.dp)
         )
-        Text(text = "Nama", fontSize = 23.sp, fontWeight = FontWeight.Bold,)
+        Text(text = "Nama", fontSize = 23.sp, fontWeight = FontWeight.Bold,
+            style = TextStyle(
+                shadow = Shadow(
+                    color = Color.Green, // Menambahkan warna hijau untuk bayangan
+                    offset = Offset(2f, 2f),  // Mengatur offset shadow
+                    blurRadius = 4f  // Mengatur seberapa buram bayangan
+                )
+            ))
     }
 }
 
