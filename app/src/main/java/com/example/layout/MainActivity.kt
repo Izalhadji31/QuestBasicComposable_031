@@ -94,6 +94,7 @@ fun BasicCompose(izal: Modifier = Modifier){
         Box(
             modifier = izal
                 .size(450.dp),
+            contentAlignment = Alignment.Center  // Mengatur konten di tengah
         )
 }
 
