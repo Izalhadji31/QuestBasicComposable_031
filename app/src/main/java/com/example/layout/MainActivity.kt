@@ -93,7 +93,7 @@ fun BasicCompose(izal: Modifier = Modifier){
         )
         Box(
             modifier = izal
-                .size(450.dp),
+                .size(480.dp),
             contentAlignment = Alignment.Center  // Mengatur konten di tengah
         ){
 
@@ -101,7 +101,7 @@ fun BasicCompose(izal: Modifier = Modifier){
                 modifier = izal
                     .size(450.dp)
                     .clip(CircleShape)
-                    .background(Color.Black.copy(alpha = 0.4f))
+                    .background(Color.Black.copy(alpha = 0.6f))
             )
             Image(
                 painter = painterResource(id = R.drawable.ijal),
@@ -112,8 +112,8 @@ fun BasicCompose(izal: Modifier = Modifier){
                 contentScale = ContentScale.Crop
             )
         }
+    }
 }
-
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
