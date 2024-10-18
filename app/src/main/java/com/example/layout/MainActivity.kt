@@ -73,7 +73,9 @@ fun BasicCompose(izal: Modifier = Modifier){
                     offset = Offset(2f, 2f),  // Mengatur offset shadow
                     blurRadius = 4f  // Mengatur seberapa buram bayangan
                 )
-            ))
+            )
+        )
+        Text(text = "MUH. SYAFRIZAL H.A.", fontSize =25.sp, fontWeight = FontWeight.Bold, color = Color.Black)
     }
 }
 
