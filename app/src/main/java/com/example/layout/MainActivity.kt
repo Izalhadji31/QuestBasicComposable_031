@@ -77,7 +77,15 @@ fun BasicCompose(izal: Modifier = Modifier){
         )
         Text(text = "MUH. SYAFRIZAL H.A.", fontSize =25.sp, fontWeight =
         FontWeight.Bold, color = Color.Black)
-        Text(text = "20220140031", fontSize = 25.sp)
+        Text(text = "20220140031", fontSize = 25.sp,
+            style = TextStyle(
+                shadow = Shadow(
+                    color = Color.Green, // Menambahkan warna hijau untuk bayangan
+                    offset = Offset(2f, 2f),  // Mengatur offset shadow
+                    blurRadius = 4f  // Mengatur seberapa buram bayangan
+                )
+            )
+        )
     }
 }
 
