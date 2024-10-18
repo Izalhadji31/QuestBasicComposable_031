@@ -60,15 +60,7 @@ fun BasicCompose(izal: Modifier = Modifier){
             )
         )
 
-        Text(
-            "Versus",
-            style = androidx.compose.ui.text.TextStyle(
-                fontSize = 50.sp,
-                fontStyle = FontStyle.Italic,
-                color = Color.Red,
-            )
-
-        )
+        Text(text = "ini halaman Login", fontSize = 22.sp, fontStyle = FontStyle.Italic, fontWeight = FontWeight.Bold, color = Color.Black)
         Image(painter = painterResource(id = R.drawable.download),
             contentDescription = null,
             modifier = izal.size(200.dp)
