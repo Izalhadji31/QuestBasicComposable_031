@@ -68,7 +68,7 @@ fun BasicCompose(izal: Modifier = Modifier){
             fontWeight = FontWeight.Bold, color = Color.Black)
         Image(painter = painterResource(id = R.drawable.logoumy),
             contentDescription = null,
-            modifier = izal.size(250.dp)
+            modifier = izal.size(180.dp)
                 .padding(top = 10.dp)
         )
         Text(text = "Nama", fontSize = 23.sp, fontWeight = FontWeight.Bold,
