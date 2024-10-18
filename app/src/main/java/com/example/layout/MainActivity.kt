@@ -48,7 +48,6 @@ fun BasicCompose(izal: Modifier = Modifier){
         verticalArrangement = Arrangement.spacedBy(4.dp),
         horizontalAlignment = Alignment.CenterHorizontally){
         Text(text = "Login", fontSize = 30.sp, fontWeight = FontWeight.Bold,
-            
         )
 
         Text(
