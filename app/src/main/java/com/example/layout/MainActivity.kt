@@ -95,7 +95,23 @@ fun BasicCompose(izal: Modifier = Modifier){
             modifier = izal
                 .size(450.dp),
             contentAlignment = Alignment.Center  // Mengatur konten di tengah
-        )
+        ){
+
+            Box(
+                modifier = izal
+                    .size(450.dp)
+                    .clip(CircleShape)
+                    .background(Color.Black.copy(alpha = 0.4f))
+            )
+            Image(
+                painter = painterResource(id = R.drawable.ijal),
+                contentDescription = null,
+                modifier = izal
+                    .size(420.dp)
+                    .clip(CircleShape),
+                contentScale = ContentScale.Crop
+            )
+        }
 }
 
 @Composable
