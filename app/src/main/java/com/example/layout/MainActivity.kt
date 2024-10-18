@@ -75,7 +75,9 @@ fun BasicCompose(izal: Modifier = Modifier){
                 )
             )
         )
-        Text(text = "MUH. SYAFRIZAL H.A.", fontSize =25.sp, fontWeight = FontWeight.Bold, color = Color.Black)
+        Text(text = "MUH. SYAFRIZAL H.A.", fontSize =25.sp, fontWeight =
+        FontWeight.Bold, color = Color.Black)
+        Text(text = "20220140031", fontSize = 25.sp)
     }
 }
 
