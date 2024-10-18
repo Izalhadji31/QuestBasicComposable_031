@@ -47,13 +47,10 @@ fun BasicCompose(izal: Modifier = Modifier){
             .padding(8.dp),
         verticalArrangement = Arrangement.spacedBy(4.dp),
         horizontalAlignment = Alignment.CenterHorizontally){
-        Text(
-            "Indonesia",
-            modifier = izal,
-            fontSize = 70.sp,
-            color = Color.Blue,
-            fontWeight = FontWeight.Bold
+        Text(text = "Login", fontSize = 30.sp, fontWeight = FontWeight.Bold,
+            
         )
+
         Text(
             "Versus",
             style = androidx.compose.ui.text.TextStyle(
